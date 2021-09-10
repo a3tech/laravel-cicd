@@ -37,6 +37,6 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
         with:
-          context: ./vendor/laravel/sail/runtimes/8.0
+          context: .
           push: true
           tags: annasalamin/laravel-cicd:latest
